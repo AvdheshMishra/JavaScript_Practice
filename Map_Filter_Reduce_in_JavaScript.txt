@@ -1,0 +1,22 @@
+//Array Map() method
+let arr = [12, 15, 16];
+let a = arr.map((value) => {
+  console.log(value);
+  return value * 2;
+})
+console.log(a);
+
+//Array Filter() method
+let arr2 = [1, 2, 3, 4, 5, 6];
+let a2 = arr2.filter((a) => {
+  return a<5;
+})
+console.log(a2);
+
+//Array reduce() method
+
+let arr3 = [1, 2, 5, 4, 8, 6, 9, 7];
+let a3 = arr3.reduce((acc, curr) => {
+  return acc+curr;
+},0)
+console.log(a3);
